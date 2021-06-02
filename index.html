@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Сайт "Осьминожка"</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="fonts/montserrat-400.woff2" rel="preload" as="font" crossorigin="anonymous">
+  <link href="fonts/montserrat-500.woff2" rel="preload" as="font" crossorigin="anonymous">
+  <link href="fonts/montserrat-600.woff2" rel="preload" as="font" crossorigin="anonymous">
+  <link href="fonts/montserrat-700.woff2" rel="preload" as="font" crossorigin="anonymous">
+</head>
+<body>
+<header class="header">
+  <div class="header__wrapper">
+
+    <div class="header__top">
+      <div class="header__logo">
+        <img src="img/icon-logo-octopus.png" width="300" height="76" alt="Изображение логотипа компании Осьминожка">
+      </div>
+
+<!--      <div class="header__button-nav"></div>-->
+    </div>
+
+    <nav class="main-nav">
+
+      <!--    <div class="main-nav__close">-->
+      <!--      <div class="main-nav__close-wrapper">-->
+      <!--        <svg class="main-nav__close-svg" width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">-->
+      <!--          <use xlink:href="img/sprite.svg#icon-cross"></use>-->
+      <!--        </svg>-->
+      <!--      </div>-->
+      <!--    </div>-->
+      <ul class="main-nav__list">
+        <!--    <ul class="main-nav__list" id = "scene">-->
+        <!--      <li class="main-nav__item" data-depth = "2"><a href="#" class="main-nav__link">Услуги</a></li>-->
+        <!--      <li class="main-nav__item" data-depth = "6"><a href="#" class="main-nav__link">Портфолио</a></li>-->
+        <li class="main-nav__item"><a href="#" class="main-nav__link">Услуги</a></li>
+        <li class="main-nav__item"><a href="#" class="main-nav__link">Портфолио</a></li>
+        <li class="main-nav__item"><a href="#" class="main-nav__link">О компании</a></li>
+        <li class="main-nav__item"><a href="#" class="main-nav__link">Команда</a></li>
+        <li class="main-nav__item"><a href="#" class="main-nav__link">Отзывы</a></li>
+        <li class="main-nav__item"><a href="#" class="main-nav__link">Контакты</a></li>
+      </ul>
+    </nav>
+
+    <a href="#" class="header__link-lang">Ru/En</a>
+  </div>
+</header>
+<main class="main">
+  <h1 class="visually_hidden">Сайт "Осьминожка"</h1>
+
+  <div class="main__promo-services-wrapper">
+    <section class="promo">
+      <div class="promo__slogan">
+        <div class="promo__slogan-wrapper scene" id="scene" data-hover-only="true" data-relative-input="true">
+          <p data-depth-x="3.5">
+            <span class="promo__slogan-dark">digital</span>&nbsp<span class="promo__slogan-white">agency</span>
+          </p>
+        </div>
+      </div>
+
+      <div class="promo__field">
+        <div class="promo__text">
+          <p>Мы растем, пока другие усыхают и чахнут</p>
+        </div>
+        <button class="promo__btn">
+          Стать клиентом
+        </button>
+      </div>
+    </section>
+
+    <div class="main-tentacle scrollme">
+      <div class="main-tentacle-wrapper animateme" data-when="enter" data-from="0.4" data-to="0.1" data-opacity="0" data-translatex="-1500" data-easing="easeinout">
+      </div>
+    </div>
+
+    <section class="services scrollme">
+      <div class="services__field animateme" data-when="enter" data-from="0.4" data-to="0.1" data-opacity="0" data-translatex="1500" data-easing="easeinout">
+        <h2 class="services__heading">Аутстаф IT персонала</h2>
+        <p class="services__promo-text">Web разработка</p>
+        <p class="services__text">
+          Это прогрессивное дизайнерское агентство, обладающее техническими и творческими
+          навыками, чтобы воплотить ваш бренд стал лучше. Наш подход к дизайну и разработке создает впечатляющие,
+          привлекательные бренды, которые возвращают вам творческий потенциал.
+        </p>
+        <a href="#" class="services__btn">
+          Подробнее
+        </a>
+      </div>
+    </section>
+
+  </div>
+</main>
+
+<footer class="footer">
+
+</footer>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+<script src="js/jquery/jquery.scrollme.js"></script>
+<script src="js/bundle.js"></script>
+</body>
+</html>
